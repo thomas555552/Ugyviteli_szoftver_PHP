@@ -1,0 +1,119 @@
+/* LOGIN PAGE */
+
+body {
+    font-family: "Arial", sans-serif;
+    background-color: #ffffff;
+    background-size: cover;
+}
+
+.main-section {
+    margin: 0 auto;
+    margin-top: 150px;
+    padding: 0;
+}
+
+.modal-content {
+    background-color: #3b4652;
+    opacity: .95;
+    padding: 0 18px;
+    box-shadow: 0px 0px 3px #7cbbd0;
+    max-width: 500px;
+
+}
+
+.logo-img {
+    margin-top: -50px;
+    margin-bottom: 30px;
+
+}
+
+.logo-img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px #848484;
+    background-color: white;
+    margin-bottom: 35px;
+}
+
+.form-group {
+    margin: 0px 0px 10px 0px;
+}
+
+
+.form-group input {
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 40%;
+    margin: 0px auto 20px auto;
+}
+
+
+button:hover {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 5px 0 dodgerBlue;
+}
+
+.btn {
+    color: #ffffff;
+    font-size: 19px;
+    padding: 7px 14px;
+    border-radius: 5px;
+}
+
+
+input {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+input:focus {
+    border-color: dodgerBlue;
+    box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon input {
+    padding-left: 40px;
+}
+
+.inputWithIcon {
+    position: relative;
+}
+
+.inputWithIcon i {
+    position: absolute;
+    left: 0;
+    top: 8px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: 0.3s;
+}
+
+.inputWithIcon input:focus + i {
+    color: dodgerBlue;
+}
+
+.inputWithIcon.inputIconBg i {
+    background-color: #aaa;
+    color: #fff;
+    padding: 9px 4px;
+    border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input:focus + i {
+    color: #fff;
+    background-color: dodgerBlue;
+}
+
