@@ -4,8 +4,8 @@
 > AJAX<br>
 > Bootstrap<br>
 > MariaDB<br>
-<br>
-> Language: Hungarian<br>
+
+ Language: Hungarian<br>
 
 ## Setup
 > Need to setup SMTP server (only if you use e-mail notification function)<br>
@@ -14,4 +14,4 @@
 > only need to run commands from db_.sql file to create all the tables and their connections
 
 
-> Than just login with username: admin | password: admin123
+Than just login with username: admin | password: admin123
